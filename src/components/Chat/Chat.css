@@ -1,0 +1,14 @@
+.container {
+ top:0;
+  left: 0;
+  z-index: 1;
+  height: 17vh;
+  position: absolute;
+  width: 20vw;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #383838;
+  border-end-end-radius: 25px;
+}

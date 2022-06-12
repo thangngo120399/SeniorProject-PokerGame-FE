@@ -1,1 +1,1 @@
-# SeniorProject-PokerGame-FE
+# poker-client

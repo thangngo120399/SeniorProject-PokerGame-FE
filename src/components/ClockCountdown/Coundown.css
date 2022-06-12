@@ -1,0 +1,15 @@
+.pomodoro{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 10px 5px;
+    background: black;
+    border-radius: 30px;
+    width:30%;
+    margin-top: 5%;
+    margin-left: 73%;
+ position: absolute;
+}
+.pomodoro .timer{
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,65 @@
+.form {
+    height: 25px;
+    display: flex;
+    border-radius: 8px;
+    opacity: 0.8;
+}
+
+.input {
+    background: #f2f4f4;
+    border-start-end-radius: 100px;
+    padding: 1%;
+    width: 75%;
+    height: 100%;
+    font-size: 0.8rem;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+input:placeholder-shown {
+    font-style: italic !important;
+    font-size: 10px;
+}
+
+.sendButton {
+    border-start-start-radius: 141px;
+    opacity: 1;
+    left: 75%;
+    height: 20%;
+    position: absolute;
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #383838;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    width: 25.5%;
+    cursor: pointer;
+    border-end-end-radius: 120px;
+}
+
+.sendButton:hover {
+    background: black;
+    opacity: 1;
+}
+
+.aside.emoji-picker-react {
+    position: absolute
+}
+
+.emojibutton {
+    background: #333;
+    border: none;
+    cursor: pointer;
+}
+
+.emojibutton:hover {
+    background: black;
+}
