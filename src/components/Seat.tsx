@@ -100,7 +100,7 @@ const SeatComponent: FCWithoutChildren<{
   }
   const { top, right } = getPosiTionInEcliipse(index, totalSeat);
   const kickPlayer = (seatToken: string) => {
-    if (window.confirm("DOy")) {
+    if (window.confirm("Are you sure you want to kick this player?")) {
       onKickPress(seatToken);
     }
   };
