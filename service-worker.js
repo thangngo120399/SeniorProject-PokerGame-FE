@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/thangngo120399/SeniorProject-PokerGame-FE/precache-manifest.020fdeed007e45dd3f4ccf206a2feec6.js"
+  "/thangngo120399.github.io/SeniorProject-PokerGame-FE/precache-manifest.1da3a98dc47eaf504a72a1ad53872f0a.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/thangngo120399/SeniorProject-PokerGame-FE/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/thangngo120399.github.io/SeniorProject-PokerGame-FE/index.html"), {
   
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });

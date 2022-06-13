@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/thangngo120399/SeniorProject-PokerGame-FE/static/css/main.ea4266ee.chunk.css",
-    "main.js": "/thangngo120399/SeniorProject-PokerGame-FE/static/js/main.c177b425.chunk.js",
-    "main.js.map": "/thangngo120399/SeniorProject-PokerGame-FE/static/js/main.c177b425.chunk.js.map",
-    "runtime-main.js": "/thangngo120399/SeniorProject-PokerGame-FE/static/js/runtime-main.d9d3dc34.js",
-    "runtime-main.js.map": "/thangngo120399/SeniorProject-PokerGame-FE/static/js/runtime-main.d9d3dc34.js.map",
-    "static/css/2.920b99fa.chunk.css": "/thangngo120399/SeniorProject-PokerGame-FE/static/css/2.920b99fa.chunk.css",
-    "static/js/2.8166519d.chunk.js": "/thangngo120399/SeniorProject-PokerGame-FE/static/js/2.8166519d.chunk.js",
-    "static/js/2.8166519d.chunk.js.map": "/thangngo120399/SeniorProject-PokerGame-FE/static/js/2.8166519d.chunk.js.map",
-    "index.html": "/thangngo120399/SeniorProject-PokerGame-FE/index.html",
-    "precache-manifest.020fdeed007e45dd3f4ccf206a2feec6.js": "/thangngo120399/SeniorProject-PokerGame-FE/precache-manifest.020fdeed007e45dd3f4ccf206a2feec6.js",
-    "service-worker.js": "/thangngo120399/SeniorProject-PokerGame-FE/service-worker.js",
-    "static/css/2.920b99fa.chunk.css.map": "/thangngo120399/SeniorProject-PokerGame-FE/static/css/2.920b99fa.chunk.css.map",
-    "static/css/main.ea4266ee.chunk.css.map": "/thangngo120399/SeniorProject-PokerGame-FE/static/css/main.ea4266ee.chunk.css.map",
-    "static/js/2.8166519d.chunk.js.LICENSE.txt": "/thangngo120399/SeniorProject-PokerGame-FE/static/js/2.8166519d.chunk.js.LICENSE.txt"
+    "main.css": "/thangngo120399.github.io/SeniorProject-PokerGame-FE/static/css/main.ea4266ee.chunk.css",
+    "main.js": "/thangngo120399.github.io/SeniorProject-PokerGame-FE/static/js/main.e032e088.chunk.js",
+    "main.js.map": "/thangngo120399.github.io/SeniorProject-PokerGame-FE/static/js/main.e032e088.chunk.js.map",
+    "runtime-main.js": "/thangngo120399.github.io/SeniorProject-PokerGame-FE/static/js/runtime-main.b3014def.js",
+    "runtime-main.js.map": "/thangngo120399.github.io/SeniorProject-PokerGame-FE/static/js/runtime-main.b3014def.js.map",
+    "static/css/2.920b99fa.chunk.css": "/thangngo120399.github.io/SeniorProject-PokerGame-FE/static/css/2.920b99fa.chunk.css",
+    "static/js/2.0f5d2622.chunk.js": "/thangngo120399.github.io/SeniorProject-PokerGame-FE/static/js/2.0f5d2622.chunk.js",
+    "static/js/2.0f5d2622.chunk.js.map": "/thangngo120399.github.io/SeniorProject-PokerGame-FE/static/js/2.0f5d2622.chunk.js.map",
+    "index.html": "/thangngo120399.github.io/SeniorProject-PokerGame-FE/index.html",
+    "precache-manifest.1da3a98dc47eaf504a72a1ad53872f0a.js": "/thangngo120399.github.io/SeniorProject-PokerGame-FE/precache-manifest.1da3a98dc47eaf504a72a1ad53872f0a.js",
+    "service-worker.js": "/thangngo120399.github.io/SeniorProject-PokerGame-FE/service-worker.js",
+    "static/css/2.920b99fa.chunk.css.map": "/thangngo120399.github.io/SeniorProject-PokerGame-FE/static/css/2.920b99fa.chunk.css.map",
+    "static/css/main.ea4266ee.chunk.css.map": "/thangngo120399.github.io/SeniorProject-PokerGame-FE/static/css/main.ea4266ee.chunk.css.map",
+    "static/js/2.0f5d2622.chunk.js.LICENSE.txt": "/thangngo120399.github.io/SeniorProject-PokerGame-FE/static/js/2.0f5d2622.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d9d3dc34.js",
+    "static/js/runtime-main.b3014def.js",
     "static/css/2.920b99fa.chunk.css",
-    "static/js/2.8166519d.chunk.js",
+    "static/js/2.0f5d2622.chunk.js",
     "static/css/main.ea4266ee.chunk.css",
-    "static/js/main.c177b425.chunk.js"
+    "static/js/main.e032e088.chunk.js"
   ]
 }
