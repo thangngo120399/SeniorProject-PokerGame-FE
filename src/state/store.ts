@@ -58,8 +58,8 @@ interface AppState {
   // username: string;
 }
 
-// const SOCKETIO_URL = "https://pokergame-ces-backend.herokuapp.com";
-const SOCKETIO_URL = "http://localhost:8000";
+const SOCKETIO_URL = "https://pokergame-ces-backend.herokuapp.com";
+// const SOCKETIO_URL = "http://localhost:8000";
 export class Store {
   @observable data: AppState = {
     themeName: themes.dark.name,

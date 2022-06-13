@@ -65,7 +65,7 @@
         "storybook": "start-storybook -p 9009 -s public",
         "build-storybook": "build-storybook -s public",
         "predeploy": "npm run build",
-        "deploy": "gh-page -d build"
+        "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
         "extends": "react-app"
