@@ -1,4 +1,5 @@
 {
+    "homepage": "https://github.com/thangngo120399/SeniorProject-PokerGame-FE",
     "name": "@pairjacks/poker-client",
     "version": "0.1.0",
     "private": true,
@@ -45,6 +46,7 @@
         "@types/react": "16.9.34",
         "@types/react-dom": "16.9.6",
         "@types/styled-components": "5.1.0",
+        "gh-pages": "4.0.0",
         "prettier": "2.0.4",
         "storybook-addon-styled-component-theme": "1.3.0",
         "stylelint": "13.3.2",
@@ -61,7 +63,9 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "storybook": "start-storybook -p 9009 -s public",
-        "build-storybook": "build-storybook -s public"
+        "build-storybook": "build-storybook -s public",
+        "predeploy": "npm run build",
+        "deploy": "gh-page -d build"
     },
     "eslintConfig": {
         "extends": "react-app"
