@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/thangngo120399/SeniorProject-PokerGame-FE/precache-manifest.ac8a4c5a81d8df5a953f82d244297b6f.js"
+  "/thangngo120399/SeniorProject-PokerGame-FE/precache-manifest.020fdeed007e45dd3f4ccf206a2feec6.js"
 );
 
 self.addEventListener('message', (event) => {
