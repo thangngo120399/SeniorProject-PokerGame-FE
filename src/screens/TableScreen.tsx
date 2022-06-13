@@ -18,6 +18,9 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 import { Actions } from "../components/ActionsContainer";
 import { animated, useSpring, config } from "react-spring";
 import AnimatedNumber from "../components/AnimatedNumber";
+
+import { ConfirmDialog } from "mui-confirm-dialog";
+
 const urlWithPath = (path: string) =>
   window.location.protocol + "//" + window.location.host + "/" + path;
 
@@ -40,6 +43,7 @@ const TableScreen: FCWithoutChildren = () => {
   const store = useStore();
   const [copied, setCopied] = useState<boolean>(false);
   const { table } = store.data;
+
   let isPauseGame = store.data.table?.isPaused;
   const [isModalVisible, setIsModalVisible] = useState<boolean>(false);
   if (!table) throw new Error("Expected a table");

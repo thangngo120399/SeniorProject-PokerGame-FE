@@ -14,6 +14,7 @@ import { FlipCards } from "../components/Cards/FlipCard";
 import closeIcon from "../icons/closeIcon.png";
 import { animated, useSpring, config } from "react-spring";
 import AnimatedNumber from "./AnimatedNumber";
+
 function getPosiTionInEcliipse(
   index: number,
   totalSeat: number
@@ -98,6 +99,11 @@ const SeatComponent: FCWithoutChildren<{
     index = 0;
   }
   const { top, right } = getPosiTionInEcliipse(index, totalSeat);
+  const kickPlayer = (seatToken: string) => {
+    if (window.confirm("DOy")) {
+      onKickPress(seatToken);
+    }
+  };
   return (
     <OuterContainer top={top} right={right}>
       <BetChipBallContainer>
@@ -158,7 +164,7 @@ const SeatComponent: FCWithoutChildren<{
               </RolePlayer>
               {!isGameDealed && !isCurrentUser && isHost && (
                 <KickPlayerButton
-                  onClick={() => onKickPress(seat.token)}
+                  onClick={() => kickPlayer(seat.token)}
                   title="Kick Player"
                 >
                   <img
