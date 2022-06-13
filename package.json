@@ -1,6 +1,6 @@
 {
     "homepage": "https://github.com/thangngo120399/SeniorProject-PokerGame-FE",
-    "name": "@pairjacks/poker-client",
+    "name": "poker-game-fun",
     "version": "0.1.0",
     "private": true,
     "engines": {
