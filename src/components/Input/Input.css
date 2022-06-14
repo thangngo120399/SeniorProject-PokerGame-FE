@@ -14,6 +14,11 @@
     font-size: 0.8rem;
 }
 
+.inputChat {
+    background: none;
+    color: #37893a;
+}
+
 input:focus,
 textarea:focus,
 select:focus {
@@ -33,7 +38,7 @@ input:placeholder-shown {
     position: absolute;
     font-size: 10px;
     font-weight: bold;
-    color: #fff !important;
+    color: #37d636 !important;
     text-transform: uppercase;
     text-decoration: none;
     background: #383838;

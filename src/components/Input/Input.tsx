@@ -55,7 +55,7 @@ export const Inputs: FCWithoutChildren<{
         onKeyDown={(event) =>
           event.key === "Enter" ? sendMessage(event) : null
         }
-        style={{ color: msgToxic ? "red" : "black" }}
+        style={{ color: msgToxic ? "red" : "#298450", background: "none" }}
       />
       <button
         style={{ bottom: 0 }}
