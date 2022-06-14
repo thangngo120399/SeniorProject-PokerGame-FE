@@ -35,6 +35,7 @@ const AppRoot: FCWithoutChildren = () => {
 export default observer(AppRoot);
 
 const Container = styled.div`
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   min-height: 100vh;

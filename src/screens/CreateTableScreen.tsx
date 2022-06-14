@@ -166,7 +166,7 @@ const Wrapper = styled.div`
     #8bcaa6 70%,
     #256440 100%
   );
-  height: 96vh;
+  height: 100vh;
 `;
 
 const Container = styled.div``;
