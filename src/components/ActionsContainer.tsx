@@ -46,7 +46,7 @@ export const Actions: FCWithoutChildren<{
                 fontSize: "15px",
                 background: "none",
                 color: "#37d636",
-                border: "1px solid #37d636",
+                border: "1px solid #2e8d57",
               }}
               min="1"
               type="number"
