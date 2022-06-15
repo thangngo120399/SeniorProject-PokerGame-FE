@@ -407,19 +407,19 @@ const CenterMargin = styled.div`
 const StartButton = styled.button`
   left: 92%;
   top: 2%;
-  padding: 20px;
+  padding: 14px;
   border-radius: 16px;
-  border: 1px solid yellowgreen;
+  border: 1px solid #37d636;
   background: none;
-  color: yellowgreen;
+  color: #37d636;
   cursor: pointer;
   margin: 2em auto;
   position: absolute;
   z-index: 100000;
   font-size: 12px;
   &:hover {
-    background: yellowgreen;
-    color: white;
+    background: black;
+    color: #37d636;
     font-weight: bold;
   }
 `;

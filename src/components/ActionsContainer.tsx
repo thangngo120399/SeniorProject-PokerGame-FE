@@ -40,8 +40,16 @@ export const Actions: FCWithoutChildren<{
             }}
           >
             <input
-              style={{ width: "180px", padding: "3px", fontSize: "15px" }}
-              type="text"
+              style={{
+                width: "180px",
+                padding: "3px",
+                fontSize: "15px",
+                background: "none",
+                color: "#37d636",
+                border: "1px solid #37d636",
+              }}
+              min="1"
+              type="number"
               value={betInputValue}
               onChange={(event) => setBetInputValue(event.target.value)}
             />
@@ -108,13 +116,13 @@ const DealButton = styled.button`
   border-radius: 14px;
   font-weight: bold;
   cursor: pointer;
-  border: 1px solid #31a231;
-  color: rgb(79 246 79);
+  border: 1px solid #37d636;
+  color: #37d636;
   font-size: 15px;
   margin: 0.4em;
   &:hover {
-    background: #16741c;
-    color: white;
+    background: black;
+    color: #37d636;
   }
 `;
 
@@ -130,14 +138,14 @@ const BetRaiseButton = styled.button`
   width: 75px;
   border-radius: 9px;
   font-weight: bold;
-  border: 1px solid #31a231;
-  color: rgb(79 246 79);
+  border: 1px solid #37d636;
+  color: #37d636;
   font-size: 13px;
   cursor: pointer;
   margin: 0.4em;
   &:hover {
-    background: #16741c;
-    color: white;
+    background: black;
+    color: #37d636;
   }
 `;
 
@@ -149,13 +157,13 @@ const CheckButton = styled.button`
   border-radius: 10px;
   font-weight: bold;
   cursor: pointer;
-  border: 1px solid #31a231;
-  color: rgb(79 246 79);
+  border: 1px solid #37d636;
+  color: #37d636;
   font-size: 15px;
   cursor: pointer;
   &:hover {
-    background: #16741c;
-    color: white;
+    background: black;
+    color: #37d636;
   }
 `;
 
@@ -166,13 +174,13 @@ const CallButton = styled.button`
   width: 120px;
   border-radius: 10px;
   font-weight: bold;
-  border: 1px solid #31a231;
-  color: rgb(79 246 79);
+  border: 1px solid #37d636;
+  color: #37d636;
   font-size: 15px;
   cursor: pointer;
   &:hover {
-    background: #16741c;
-    color: white;
+    background: black;
+    color: #37d636;
   }
 `;
 
@@ -184,12 +192,12 @@ const FoldButton = styled.button`
   border-radius: 10px;
   font-weight: bold;
   cursor: pointer;
-  border: 1px solid #31a231;
-  color: rgb(79 246 79);
+  border: 1px solid #37d636;
+  color: #37d636;
   font-size: 15px;
   cursor: pointer;
   &:hover {
-    background: #16741c;
-    color: white;
+    background: black;
+    color: #37d636;
   }
 `;
